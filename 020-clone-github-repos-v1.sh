@@ -2,8 +2,8 @@
 set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
+# Author 	: 	D Bruce Saurer
+# Website 	: 	http://www.dbsaurer.com
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -12,24 +12,22 @@ set -e
 ##################################################################################################################
 
 
-echo "copying termite settings "
+echo "Clone base16-shell from github"
 
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
-[ -d $HOME"/.config/termite" ] || mkdir -p $HOME"/.config/termite"
+echo "cloning gpakosz tmux from github"
 
-cp settings/termite/config ~/.config/termite/
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 
+echo "cloning Vundle for plugin management in vim"
 
-echo "copying termite themes "
-
-
-[ -d $HOME"/.config/termite/themes" ] || mkdir -p $HOME"/.config/termite/themes"
-
-cp settings/termite/themes/ ~/.config/termite/themes
-
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 
 echo "################################################################"
-echo "#########     termite settings have been copied   ################"
+echo "#########     github repos have been cloned     ################"
 echo "################################################################"
-
