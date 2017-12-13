@@ -17,7 +17,7 @@ echo "copying termite settings "
 
 [ -d $HOME"/.config/termite" ] || mkdir -p $HOME"/.config/termite"
 
-cp settings/termite/config ~/.config/termite/
+cp -r settings/termite/config ~/.config/termite/
 
 
 echo "copying termite themes "
@@ -25,7 +25,7 @@ echo "copying termite themes "
 
 [ -d $HOME"/.config/termite/themes" ] || mkdir -p $HOME"/.config/termite/themes"
 
-cp settings/termite/themes/ ~/.config/termite/themes
+cp -r settings/termite/themes/ ~/.config/termite/themes
 
 
 

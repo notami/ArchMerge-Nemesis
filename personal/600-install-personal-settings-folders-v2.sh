@@ -44,7 +44,6 @@ echo "################################################################"
 [ -d $HOME"/Downloads" ] || mkdir -p $HOME"/Downloads"
 [ -d $HOME"/DATA" ] || mkdir -p $HOME"/DATA"
 #[ -d $HOME"/Dropbox" ] || mkdir -p $HOME"/Dropbox" will be created by dropbox
-[ -d $HOME"/Insync" ] || mkdir -p $HOME"/Insync"
 [ -d $HOME"/Music" ] || mkdir -p $HOME"/Music"
 [ -d $HOME"/Pictures" ] || mkdir -p $HOME"/Pictures"
 [ -d $HOME"/Videos" ] || mkdir -p $HOME"/Videos"

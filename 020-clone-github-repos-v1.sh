@@ -27,6 +27,8 @@ echo "cloning Vundle for plugin management in vim"
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+echo "cloning powerlevel9k"
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 echo "################################################################"
 echo "#########     github repos have been cloned     ################"
