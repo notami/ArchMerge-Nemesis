@@ -19,7 +19,7 @@ cp -r settings/ncmpcpp/ ~/.ncmpcpp
 
 echo "Copy/pasting mpd config"
 
-sudo cp settings/mpd/mpd.conf /etc//mpd.conf
+sudo cp settings/mpd/mpd.conf /etc/mpd.conf
 
 
 echo "################################################################"
