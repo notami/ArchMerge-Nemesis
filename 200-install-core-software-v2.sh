@@ -27,6 +27,8 @@ sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed kodi
 sudo pacman -S --noconfirm --needed awesome-terminal-fonts
+sudo pacman -S --noconfirm --needed mpd
+sudo pacman -S --noconfirm --needed ncmpcpp
 
 ###############################################################################################
 
