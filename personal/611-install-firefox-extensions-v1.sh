@@ -24,6 +24,8 @@ mozilla-extension-manager --install --user https://addons.mozilla.org/firefox/do
 mozilla-extension-manager --install --user https://addons.mozilla.org/firefox/downloads/file/766725/nosquint_plus-62.1-an+fx.xpi
 mozilla-extension-manager --install --user https://addons.mozilla.org/firefox/downloads/file/723895/dark_theme_for_youtubetm-0.1.8-an+fx.xpi
 mozilla-extension-manager --install --user https://addons.mozilla.org/firefox/downloads/file/791438/bloody_vikings-0.9.3-an+fx-linux.xpi
+mozilla-extension-manager --install --user https://addons.mozilla.org/firefox/downloads/file/816557/enhancer_for_youtubetm-2.0.55-an+fx-linux.xpi
+mozilla-extension-manager --install --user https://addons.mozilla.org/firefox/downloads/file/817075/simple_tab_groups-1.9.0.1-an+fx.xpi?src=dp-btn-primary
 
 echo "################################################################"
 echo "#########      Firefox Extensions Installed     ################"
