@@ -25,6 +25,7 @@ sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-dropbox-v*.sh
 sh AUR/install-gradio-v*.sh
 sh AUR/install-mullvad-v*.sh
+sh AUR/install-timeshift-v*.sh
 #sh AUR/install-insync-v*.sh
 #sh AUR/install-radiotray-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
