@@ -31,6 +31,8 @@ sudo pacman -S --noconfirm --needed kodi
 sudo pacman -S --noconfirm --needed awesome-terminal-fonts
 sudo pacman -S --noconfirm --needed mpd
 sudo pacman -S --noconfirm --needed ncmpcpp
+sudo pacman -S --noconfirm --needed cdparanoia
+sudo pacman -S --noconfirm --needed abcde
 
 ###############################################################################################
 
