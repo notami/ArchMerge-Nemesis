@@ -21,6 +21,7 @@ set -e
 #sh AUR/install-brackets-v*.sh
 #sh AUR/install-rclone-browser-v*.sh
 #sh AUR/install-darkaudacity-git-v*.sh
+sh AUR/install-firefox-esr-v*.sh
 sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-dropbox-v*.sh
 sh AUR/install-gradio-v*.sh
@@ -33,7 +34,7 @@ sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-spotify-v*.sh
 sh AUR/install-teamviewer-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
-sh AUR/install-virtualbox-for-linux-kernel-v*.sh
+# sh AUR/install-virtualbox-for-linux-kernel-v*.sh
 #sh AUR/install-virtualbox-for-linux-lts-kernel-v*.sh
 
 # these come last always

@@ -10,6 +10,8 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+#remove firefox and install esr
+sudo pacman -Rns --noconfirm firefox
 
 #software from 'normal' repositories
 
