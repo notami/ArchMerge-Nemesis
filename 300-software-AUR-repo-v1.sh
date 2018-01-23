@@ -19,11 +19,11 @@ set -e
 #sudo mount -o remount,size=5G,noatime /tmp
 
 #sh AUR/install-brackets-v*.sh
-sh AUR/install-rclone-browser-v*.sh
+#sh AUR/install-rclone-browser-v*.sh
 #sh AUR/install-darkaudacity-git-v*.sh
-sh AUR/install-firefox-esr-v*.sh
+sh AUR/install-firefox-esr-bin-v*.sh
 sh AUR/install-conky-aureola-v*.sh
-sh AUR/install-dropbox-v*.sh
+#sh AUR/install-dropbox-v*.sh
 sh AUR/install-gradio-v*.sh
 sh AUR/install-mullvad-v*.sh
 #sh AUR/install-timeshift-v*.sh
