@@ -17,11 +17,11 @@ package="cnijfilter2-mg7700"
 #----------------------------------------------------------------------------------
 
 #checking which helper is installed
-if pacman -Qi yaourt &> /dev/null; then
+if pacman -Qi yay &> /dev/null; then
 
-	echo "Installing with yaourt"
-	yaourt -S --noconfirm $package
-	
+	echo "Installing with yay"
+	yay -S --noconfirm $package
+
 elif pacman -Qi pacaur &> /dev/null; then
 
 	echo "Installing with pacaur"
@@ -51,10 +51,10 @@ elif which packer > /dev/null; then
 	echo "Installing with packer"
 	packer -S --noconfirm --noedit  $package
 
-elif which yaourt > /dev/null; then
+elif which yay > /dev/null; then
 
-	echo "Installing with yaourt"
-	yaourt -S --noconfirm $package
+	echo "Installing with yay"
+	yay -S --noconfirm $package
 
 fi
 
