@@ -63,7 +63,7 @@ fi
 git init
 git config --global user.name "D Bruce Saurer"
 git config --global user.email "notami@gmail.com"
-sudo git config --system core.editor vim
+sudo git config --system core.editor nvim
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=18000'
 git config --global push.default simple
